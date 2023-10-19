@@ -15,13 +15,13 @@ function Contact() {
           <p>For inquiries, partnerships, or to experience the delectable taste of Madam Teekhi
               Hot Garlic Sauce, please reach out to us at:
               <br/><br />
-             <span><b>Email:</b> contact@madamteekhi.com</span>
+             <span><b>Email:</b> <br/>contact@madamteekhi.com</span>
              <br/><br/>
               <span><b>Instagram:</b><br/>@madam.teekhi</span>
               <br/><br/>
               <span><b>Mobile:</b><br/>9205055459</span>
               <br/><br/>
-              Join us in savoring the flavors of tradition and innovation with Madam Teekhi sauce !
+              Join us in savoring the flavors of tradition and innovation with Madam Teekhi sauce!
               </p>
         </div>
       </div>

@@ -23,10 +23,12 @@
 
   .contact .rightSide h1 {
     font-weight: 10;
+    text-align:center;
     font-size: 50px;
     margin-left: 23px;
   }
 
   p {
     margin: -9px 7px;
+    text-align:center;
   }
