@@ -1,5 +1,7 @@
 import React from "react";
 import "../styles/About.css";
+import Teekhi2 from "../assets/teekhi2.png";
+
 function About() {
   return (
     <div className="about">
@@ -7,7 +9,7 @@ function About() {
         className="aboutTop" >
       </div>
       <div className="aboutBottom">
-        <h1> About Us</h1>
+        <h1> About Us <img src={Teekhi2} width={50} height={50} className="teekhi-img-about" alt=""/> </h1>
         <p>
         <em>Madam Teekhi Hot Garlic Sauce is the embodiment of out family's culinary heritage. Crafted using a secret recipe
          passed down for generations, this sauce combines the bold flavours of garlic with a tantalising heat that lingers
@@ -24,7 +26,7 @@ function About() {
         </p>
         <br/><br/>
         <h2>Certificates and Licenses</h2>
-          <a class="btn" href="https://drive.google.com/file/d/1vs1CtHMNVuP5cQtdx15dL_bQgbdMf5DS/view?usp=sharing" target="_blank">
+          <a className="btn" href="https://drive.google.com/file/d/1vs1CtHMNVuP5cQtdx15dL_bQgbdMf5DS/view?usp=sharing" target="_blank">
           Shelf Life
           </a>
         <br/>

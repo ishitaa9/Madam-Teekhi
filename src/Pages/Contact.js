@@ -1,6 +1,8 @@
 import React from "react";
 import PizzaLeft from "../assets/Banner.jpeg";
 import "../styles/Contact.css";
+import Teekhi2 from "../assets/teekhi2.png";
+
 
 function Contact() {
   return (
@@ -10,7 +12,7 @@ function Contact() {
         style={{ backgroundImage: `url(${PizzaLeft})` }}
       ></div>
       <div className="rightSide">
-        <h1> Contact Us</h1>
+        <h1> Contact Us <img src={Teekhi2} width={50} height={50} className="teekhi-img-contact" alt=""/></h1>
         <div id="contact-form" method="POST">
           <p>For inquiries, partnerships, or to experience the delectable taste of Madam Teekhi
               Hot Garlic Sauce, please reach out to us at:
