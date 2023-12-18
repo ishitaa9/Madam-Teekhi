@@ -5,6 +5,10 @@
     font-family: serif;
   }
 
+  h1:hover{
+    color: red;
+  }
+
   .contact .leftSide {
     height: 100%;
     flex: 50%;
@@ -31,4 +35,14 @@
   p {
     margin: -9px 7px;
     text-align:center;
+  }
+
+  @media only screen and (min-width: 300px) {
+    .contact .leftSide {
+      flex: none;
+    }
+
+    .contact .rightSide {
+      display: initial;
+    }
   }
