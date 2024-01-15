@@ -73,6 +73,28 @@
     }
   }
 
+  .certificates{
+    margin-top: -23px;
+  }
+
+  .fssai{
+    margin-bottom: -10px;
+    width: 130px;
+    height: 130px;
+  }
+
+  .udyam {
+    margin-bottom: 22px;
+    width: 170px;
+    height: 70px;
+  }
+
+  .shelfLife {
+    margin-bottom: -24px;
+    width: 130px;
+    height: 150px;
+  }
+
   @media only screen and (min-width: 600px) {
     .aboutBottom {
       overflow: scroll;
@@ -80,5 +102,20 @@
 
     .aboutBottom p {
       width: 335px;
+    }
+  }
+
+  @media only screen and (max-width: 430px) {
+
+    .fssai {
+      margin-bottom: 0px;
+      width: 90px;
+      height: 95px;
+    }
+
+    .udyam {
+      margin-bottom: 22px;
+      width: 150px;
+      height: 55px;
     }
   }

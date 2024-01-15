@@ -1,5 +1,4 @@
 import React from "react";
-import PizzaLeft from "../assets/Banner.jpeg";
 import "../styles/Contact.css";
 import Teekhi2 from "../assets/teekhi2.png";
 
@@ -9,7 +8,7 @@ function Contact() {
     <div className="contact">
       <div
         className="leftSide"
-        style={{ backgroundImage: `url(${PizzaLeft})` }}
+        // style={{ backgroundImage: `url(${PizzaLeft})` }}
       ></div>
       <div className="rightSide">
         <h1> Contact Us <img src={Teekhi2} width={50} height={50} className="teekhi-img-contact" alt=""/></h1>
